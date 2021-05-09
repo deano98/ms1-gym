@@ -14,24 +14,24 @@ This website is for a fictional gym called Milestone Fitness, created for my fir
 # Wireframes
 
 ### Desktop
-[Homepage](docs/wireframes/Homepage.png)
-[Classes](docs/wireframes/Classes.png)
-[Membership](docs/wireframes/Membership.png)
-[Contact](docs/wireframes/Contact.png)
+[Homepage](docs/wireframes/homepage.png)\
+[Classes](docs/wireframes/classes.png)\
+[Membership](docs/wireframes/membership.png)\
+[Contact](docs/wireframes/contact.png)
 
 ### Tablet
 
-[Homepage](docs/wireframes/Homepage Tablet.png)
-[Classes](docs/wireframes/Classes Tablet.png)
-[Membership](docs/wireframes/Membership Tablet.png)
-[Contact](docs/wireframes/Contact Tablet.png)
+[Homepage](docs/wireframes/homepage-tablet.png)\
+[Classes](docs/wireframes/classes-tablet.png)\
+[Membership](docs/wireframes/membership-tablet.png)\
+[Contact](docs/wireframes/contact-tablet.png)
 
 ### Mobile
 
-[Homepage](docs/wireframes/Homepage Mobile.png)
-[Classes](docs/wireframes/Classes Mobile.png)
-[Membership](docs/wireframes/Membership Phone.png)
-[Contact](docs/wireframes/Contact Mobile.png)
+[Homepage](docs/wireframes/homepage-mobile.png)\
+[Classes](docs/wireframes/classes-mobile.png)\
+[Membership](docs/wireframes/membership-mobile.png)\
+[Contact](docs/wireframes/contact-mobile.png)
 
 # UX
 
