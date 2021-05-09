@@ -11,6 +11,28 @@ This website is for a fictional gym called Milestone Fitness, created for my fir
 * Simple way to view and sign up for classes
 * Find information on pricing, opening times and location
 
+# Wireframes
+
+### Desktop
+[Homepage](docs/wireframes/Homepage.png)
+[Classes](docs/wireframes/Classes.png)
+[Membership](docs/wireframes/Membership.png)
+[Contact](docs/wireframes/Contact.png)
+
+### Tablet
+
+[Homepage](docs/wireframes/Homepage Tablet.png)
+[Classes](docs/wireframes/Classes Tablet.png)
+[Membership](docs/wireframes/Membership Tablet.png)
+[Contact](docs/wireframes/Contact Tablet.png)
+
+### Mobile
+
+[Homepage](docs/wireframes/Homepage Mobile.png)
+[Classes](docs/wireframes/Classes Mobile.png)
+[Membership](docs/wireframes/Membership Phone.png)
+[Contact](docs/wireframes/Contact Mobile.png)
+
 # UX
 
 ### The users this website will be targeting:
