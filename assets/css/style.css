@@ -44,3 +44,12 @@ body {
 .active {
     color: #00BAC4 !important;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
+    overflow: hidden;
+}
