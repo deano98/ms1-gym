@@ -8,4 +8,39 @@
 
 body {
     font-family: Raleway, sans-serif;
+    color: #505050;
+}
+
+/* navigation links */
+
+#logo {
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+#menu {
+    letter-spacing: 2px;
+    line-height: 50px;
+
+}
+
+#menu li {
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+#menu a:hover {
+    color: #00BAC4;
+}
+
+.active {
+    color: #00BAC4 !important;
 }
