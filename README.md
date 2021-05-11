@@ -85,3 +85,16 @@ The contact page has a similar layout to the membership page, providing users wi
 * A form to reserve a spot in classes, linked from the classes page
 
 * A Gallery page to display images of the gym
+
+# Technologies Used
+
+* HTML
+* CSS
+* Google Fonts
+
+# External Resources
+
+[Unsplash](https://unsplash.com/) - Resource for stock images
+
+
+
