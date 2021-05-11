@@ -86,6 +86,8 @@ The contact page has a similar layout to the membership page, providing users wi
 
 * A Gallery page to display images of the gym
 
+* Hero image animation
+
 # Technologies Used
 
 * HTML

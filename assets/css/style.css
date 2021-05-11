@@ -64,6 +64,7 @@ body {
     top: 18%;
     right: 15%;
     color: white;
+    font-family: Lato, sans-serif;
 
     /*
 
@@ -89,6 +90,9 @@ body {
     text-align: center;
     line-height: 100px;
     letter-spacing: 2px;
+    background-color: #00BAC4;
+    color: white;
+    font-family: Lato, sans-serif;
 }
 
 #intro {
@@ -96,15 +100,22 @@ body {
 }
 
 #top-left-image {
-    height: 260px;
-    width: 50%;
-    background: url(../images/gym-1.jpg) no-repeat center top;
+    height: 340px;
+    width: 40%;
+    padding: 0 5% 0 5%;
+    background: url(../images/gym-1.jpg) no-repeat center bottom;
     overflow: hidden;
+    background-clip: content-box;
     float: left;
 }
 
 #top-right-text {
     height: 260px;
-    width: 50%;
+    width: 40%;
+    padding: 160px 5% 0 5%;
+    font-family: Lato, sans-serif;
+    background-clip: content-box;
     float: right;
+    font-size: 20px;
 }
+
