@@ -191,9 +191,18 @@ hr {
 
 /* footer */
 
-footer {
+.social-networks {
     height: 150px;
-    background-color: #505050;
+    background-color: #00BAC4;
+    text-align: center;
+}
+
+.social-networks i {
+    float: left;
+    width: 33%;
+    font-size: 75px;
+    color: white;
+    line-height: 150px;
 }
 
 
