@@ -82,13 +82,14 @@ body {
 /* gym intro */
 
 #welcome {
-    height: 100px;
+    height: 150px;
     width: 100%;
 }
 
 #welcome h1 {
+    font-size: 40px;
     text-align: center;
-    line-height: 100px;
+    line-height: 150px;
     letter-spacing: 2px;
     background-color: #00BAC4;
     color: white;
@@ -96,26 +97,54 @@ body {
 }
 
 #intro {
-    height: 300px;
+    height: 450px;
 }
 
 #top-left-image {
-    height: 340px;
+    height: 450px;
     width: 40%;
     padding: 0 5% 0 5%;
-    background: url(../images/gym-1.jpg) no-repeat center bottom;
+    background: url(../images/gym-1.jpg) no-repeat center;
     overflow: hidden;
     background-clip: content-box;
     float: left;
 }
 
 #top-right-text {
-    height: 260px;
+    height: 290px;
     width: 40%;
     padding: 160px 5% 0 5%;
+    text-align: center;
     font-family: Lato, sans-serif;
     background-clip: content-box;
     float: right;
     font-size: 20px;
 }
 
+/* gym breakdown */
+
+#breakdown-left {
+    height: 300px;
+    width: 33%;
+    float: left;
+}
+
+#breakdown-right {
+    height: 300px;
+    width: 33%;
+    background-color: blue;
+    float: right;
+}
+
+#breakdown-centre {
+    height: 300px;
+    width: 33%;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.breakdown-headings {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
