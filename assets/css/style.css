@@ -188,3 +188,12 @@ hr {
     float: left;
     font-size: 20px;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #505050;
+}
+
+
