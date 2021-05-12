@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -162,3 +162,29 @@ hr {
     font-family: Lato, sans-serif;
 }
 
+/* outro */
+
+#outro {
+    height: 450px;
+}
+
+#bottom-right-image {
+    height: 450px;
+    width: 40%;
+    padding: 0 5% 0 5%;
+    background: url(../images/gym-2.jpg) no-repeat center;
+    overflow: hidden;
+    background-clip: content-box;
+    float: right;
+}
+
+#bottom-left-text {
+    height: 290px;
+    width: 40%;
+    padding: 160px 5% 0 5%;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    background-clip: content-box;
+    float: left;
+    font-size: 20px;
+}
