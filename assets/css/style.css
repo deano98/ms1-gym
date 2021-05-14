@@ -22,7 +22,7 @@ body {
 #menu {
     letter-spacing: 2px;
     line-height: 50px;
-
+    background-color: white;
 }
 
 #menu li {
@@ -87,7 +87,7 @@ body {
 }
 
 #welcome h1 {
-    font-size: 40px;
+    font-size: 250%;
     text-align: center;
     line-height: 150px;
     letter-spacing: 2px;
@@ -207,6 +207,19 @@ hr {
 
 /* classes */
 
+#timetable {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+    font-family: Lato, sans-serif;
+    color: white;
+    font-size: 150%;
+    letter-spacing: 2px;
+    background-color: #505050;
+    float: left;
+}
+
 #classes {
     font-family: Lato, sans-serif;
     text-align: center;
@@ -217,11 +230,21 @@ hr {
 }
 
 .day {
-    height: 50px;
+    height: 75px;
     width: 100%;
     float: left;
     line-height: 50px;
     background-color: #00BAC4;
+    margin-bottom: 50px;
+}
+
+.day-mid {
+    height: 75px;
+    width: 100%;
+    float: left;
+    line-height: 50px;
+    background-color: #00BAC4;
+    margin: 50px 0 50px 0;
 }
 
 .class-one {
