@@ -216,6 +216,13 @@ hr {
     font-size: 20px;
 }
 
+.classes p {
+    font-weight: 900;
+    color: black;
+    margin-top: 5%;
+    font-family: Lato, sans-serif;
+}
+
 .day {
     height: 75px;
     width: 100%;
@@ -223,6 +230,7 @@ hr {
     line-height: 75px;
     background-color: #00BAC4;
     margin-bottom: 50px;
+    color: #505050;
 }
 
 .class-one {
@@ -230,7 +238,6 @@ hr {
     width: 33%;
     float: left;
     background: url(../images/body-burn.jpg) no-repeat center;
-    opacity: 0.4;
     margin-bottom: 50px;
 }
 
@@ -239,7 +246,6 @@ hr {
     width: 33%;
     float: left;
     background: url(../images/boxercise.jpg) no-repeat center;
-    opacity: 0.4;
     margin-bottom: 50px;
 }
 
@@ -248,7 +254,6 @@ hr {
     width: 33%;
     float: left;
     background: url(../images/yoga.jpg) no-repeat center;
-    opacity: 0.4;
     margin-bottom: 50px;
 }
 
@@ -257,7 +262,6 @@ hr {
     width: 33%;
     float: left;
     background: url(../images/cardio.jpg) no-repeat center;
-    opacity: 0.4;
     margin-bottom: 50px;
 }
 
@@ -266,7 +270,6 @@ hr {
     width: 33%;
     float: left;
     background: url(../images/circuit-training.jpg) no-repeat center;
-    opacity: 0.4;
     margin-bottom: 50px;
 }
 
@@ -275,7 +278,6 @@ hr {
     width: 33%;
     float: left;
     background: url(../images/kettlebell.jpg) no-repeat center;
-    opacity: 0.4;
     margin-bottom: 50px;
 }
 
