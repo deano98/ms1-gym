@@ -281,3 +281,18 @@ hr {
     margin-bottom: 50px;
 }
 
+/* membership page */
+
+#membership {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+    font-family: Lato, sans-serif;
+    color: white;
+    font-size: 150%;
+    letter-spacing: 2px;
+    background-color: #505050;
+    float: left;
+}
+
