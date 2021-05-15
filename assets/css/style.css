@@ -65,18 +65,6 @@ body {
     right: 15%;
     color: white;
     font-family: Lato, sans-serif;
-
-    /*
-
-    width: 550px;
-    height: 105px;
-
-    border-radius: 15px;
-
-    padding: 20px 0px 20px 0px; 
-
-    background-color: rgb(0, 186, 196, .3)
- */
 }
 
 /* gym intro */
@@ -193,8 +181,10 @@ hr {
 
 .social-networks {
     height: 150px;
+    width: 100%;
     background-color: #00BAC4;
     text-align: center;
+    float: left;
 }
 
 .social-networks i {
@@ -220,31 +210,19 @@ hr {
     float: left;
 }
 
-#classes {
-    font-family: Lato, sans-serif;
+.classes {
     text-align: center;
     font-weight: 600;
-    color: black;
     font-size: 20px;
-    opacity: 1;
 }
 
 .day {
     height: 75px;
     width: 100%;
     float: left;
-    line-height: 50px;
+    line-height: 75px;
     background-color: #00BAC4;
     margin-bottom: 50px;
-}
-
-.day-mid {
-    height: 75px;
-    width: 100%;
-    float: left;
-    line-height: 50px;
-    background-color: #00BAC4;
-    margin: 50px 0 50px 0;
 }
 
 .class-one {
@@ -253,6 +231,7 @@ hr {
     float: left;
     background: url(../images/body-burn.jpg) no-repeat center;
     opacity: 0.4;
+    margin-bottom: 50px;
 }
 
 .class-two {
@@ -261,6 +240,7 @@ hr {
     float: left;
     background: url(../images/boxercise.jpg) no-repeat center;
     opacity: 0.4;
+    margin-bottom: 50px;
 }
 
 .class-three {
@@ -269,5 +249,33 @@ hr {
     float: left;
     background: url(../images/yoga.jpg) no-repeat center;
     opacity: 0.4;
+    margin-bottom: 50px;
+}
+
+.class-four {
+    height: 250px;
+    width: 33%;
+    float: left;
+    background: url(../images/cardio.jpg) no-repeat center;
+    opacity: 0.4;
+    margin-bottom: 50px;
+}
+
+.class-five {
+    height: 250px;
+    width: 33%;
+    float: left;
+    background: url(../images/circuit-training.jpg) no-repeat center;
+    opacity: 0.4;
+    margin-bottom: 50px;
+}
+
+.class-six {
+    height: 250px;
+    width: 33%;
+    float: left;
+    background: url(../images/kettlebell.jpg) no-repeat center;
+    opacity: 0.4;
+    margin-bottom: 50px;
 }
 
