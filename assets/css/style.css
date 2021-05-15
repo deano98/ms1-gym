@@ -106,7 +106,7 @@ body {
     font-family: Lato, sans-serif;
     background-clip: content-box;
     float: right;
-    font-size: 20px;
+    font-size: 150%;
 }
 
 /* gym breakdown */
@@ -174,7 +174,7 @@ hr {
     font-family: Lato, sans-serif;
     background-clip: content-box;
     float: left;
-    font-size: 20px;
+    font-size: 150%;
 }
 
 /* footer */
@@ -296,3 +296,51 @@ hr {
     float: left;
 }
 
+#full-member {
+    height: 300px;
+    width: 33%;
+    float: left;
+    border-right: 6px solid #00BAC4;
+    margin-top: 75px;
+}
+
+#lite-member {
+    height: 300px;
+    width: 33%;
+    float: left;
+    border-right: 6px solid #00BAC4;
+    margin-top: 75px;
+}
+
+#flexi-member {
+    height: 300px;
+    width: 33%;
+    float: left;
+    margin-top: 75px;
+}
+
+#packages {
+    text-align: center;
+    font-size: 125%;
+    font-weight: bolder;
+}
+
+#packages h1 {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+#packages p {
+    line-height: initial;
+    text-align: center;
+}
+
+#member-outro {
+    height: 150px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 100px 0 0 0;
+}

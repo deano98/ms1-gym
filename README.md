@@ -84,6 +84,8 @@ The contact page has a similar layout to the membership page, providing users wi
 
 * A form to reserve a spot in classes, linked from the classes page
 
+* Add a table with full membership prices on membership page
+
 * A Gallery page to display images of the gym
 
 * Hero image animation
