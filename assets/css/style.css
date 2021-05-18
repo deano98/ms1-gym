@@ -364,7 +364,7 @@ hr {
     height: 300px;
     width: 33%;
     float: left;
-    margin-top: 75px;
+    margin: 75px 0 75px 0;
     text-align: center;
     border-right: 6px solid #00BAC4;
 }
@@ -373,7 +373,7 @@ hr {
     height: 300px;
     width: 33%;
     float: left;
-    margin-top: 75px;
+    margin: 75px 0 75px 0;
     text-align: center;
     border-right: 6px solid #00BAC4;
 }
@@ -382,7 +382,7 @@ hr {
     height: 300px;
     width: 33%;
     float: left;
-    margin-top: 75px;
+    margin: 75px 0 75px 0;
     text-align: center;
 }
 
@@ -400,4 +400,37 @@ hr {
 #contact-details p {
     line-height: initial;
     text-align: center;
+}
+
+/* map */
+
+#find-us {
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-family: Lato, sans-serif;
+    color: white;
+    font-size: 150%;
+    letter-spacing: 2px;
+    background-color: #00BAC4;
+    color: #505050;
+    float: left;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 100%;
+    float: left;
+    margin: 75px 0 75px 0;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 100%;
+    float: left;
 }
