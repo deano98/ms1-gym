@@ -23,6 +23,7 @@ body {
     letter-spacing: 2px;
     line-height: 50px;
     background-color: white;
+    height: 50px;
 }
 
 #menu li {
@@ -403,11 +404,13 @@ hr {
 }
 
 #feedback-button {
-    font-family: Lato, sans-serif;
+    font-family: Raleway, sans-serif;
     background-color: #00BAC4;
+    color: #505050;
     height: 40px;
-    width: 180px;
+    width: 200px;
     font-size: 100%;
+    font-weight: bold;
     border-radius: 5px;
 }
 
@@ -447,4 +450,74 @@ hr {
     height: 300px;
     width: 100%;
     float: left;
+}
+
+/* feedback page */
+
+#feedback-header {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#feedback-header h1 {
+    font-size: 150%;
+}
+
+#feedback-header p {
+    margin-top: 25px;
+}
+
+#form {
+    display: block;
+    text-align: center;
+}
+
+#name {
+    width: 440px;
+    height: 30px;
+    border: 2px solid #505050;
+    border-radius: 10px;
+    margin: 5px;
+    padding-left: 10px;
+    font-family: Lato, sans-serif;
+}
+
+#email {
+    width: 440px;
+    height: 30px;
+    border: 2px solid #505050;
+    border-radius: 10px;
+    margin: 5px;
+    padding-left: 10px;
+    font-family: Lato, sans-serif;
+}
+
+#feedback-input {
+    width: 440px;
+    height: 300px;
+    border: 2px solid #505050;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 0 0 10px;
+    font-family: Lato, sans-serif;
+}
+
+#submit-feedback {
+    width: 452px;
+    height: 32px;
+    background-color: #00BAC4;
+    border-radius: 10px;
+    margin: 5px 5px 10px 5px;
+    font-family: Lato, sans-serif;
+}
+
+#submit-feedback:hover {
+    background-color: #505050;
+    color: white;
+}
+
+#feedback-background {
+    background: url(../images/feedback-background.jpg) no-repeat center;
 }
