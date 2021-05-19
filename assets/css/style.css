@@ -402,6 +402,20 @@ hr {
     text-align: center;
 }
 
+#feedback-button {
+    font-family: Lato, sans-serif;
+    background-color: #00BAC4;
+    height: 40px;
+    width: 180px;
+    font-size: 100%;
+    border-radius: 5px;
+}
+
+#feedback-button:hover {
+    background-color: #505050;
+    color: white;
+}
+
 /* map */
 
 #find-us {
