@@ -100,6 +100,7 @@ The contact page has a similar layout to the membership page, providing users wi
 
 [Unsplash](https://unsplash.com/) - Resource for stock images
 [Google Map Generator](https://google-map-generator.com/) - Used to get the code to embed the google map
+[w3schools](https://www.w3schools.com/) - Help with code
 
 
 

@@ -73,10 +73,10 @@ body {
 #welcome {
     height: 150px;
     width: 100%;
+    font-size: 150%;
 }
 
 #welcome h1 {
-    font-size: 250%;
     text-align: center;
     line-height: 150px;
     letter-spacing: 2px;
@@ -291,7 +291,7 @@ hr {
     line-height: 150px;
     font-family: Lato, sans-serif;
     color: white;
-    font-size: 150%;
+    font-size: 200%;
     letter-spacing: 2px;
     background-color: #505050;
     float: left;
@@ -355,7 +355,7 @@ hr {
     line-height: 150px;
     font-family: Lato, sans-serif;
     color: white;
-    font-size: 150%;
+    font-size: 200%;
     letter-spacing: 2px;
     background-color: #505050;
     float: left;
@@ -458,15 +458,21 @@ hr {
     height: 150px;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    background-color: #505050;
+    font-family: Lato, sans-serif;
+    font-size: 200%;
 }
 
 #feedback-header h1 {
-    font-size: 150%;
+    line-height: 150px;
+    color: white;
+    letter-spacing: 2px;
 }
 
 #feedback-header p {
     margin-top: 25px;
+    font-size: 75%;
+    font-weight: bolder;
 }
 
 #form {
@@ -479,9 +485,8 @@ hr {
     height: 30px;
     border: 2px solid #505050;
     border-radius: 10px;
-    margin: 5px;
+    margin: 75px 5px 5px 5px;
     padding-left: 10px;
-    font-family: Lato, sans-serif;
 }
 
 #email {
@@ -491,7 +496,6 @@ hr {
     border-radius: 10px;
     margin: 5px;
     padding-left: 10px;
-    font-family: Lato, sans-serif;
 }
 
 #feedback-input {
@@ -501,7 +505,11 @@ hr {
     border-radius: 10px;
     margin: 5px;
     padding: 10px 0 0 10px;
+}
+
+::placeholder {
     font-family: Lato, sans-serif;
+    font-weight: bold;
 }
 
 #submit-feedback {
@@ -509,8 +517,10 @@ hr {
     height: 32px;
     background-color: #00BAC4;
     border-radius: 10px;
-    margin: 5px 5px 10px 5px;
+    margin: 5px 5px 75px 5px;
     font-family: Lato, sans-serif;
+    font-weight: bold;
+    color: #505050;
 }
 
 #submit-feedback:hover {
