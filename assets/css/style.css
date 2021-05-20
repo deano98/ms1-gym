@@ -337,6 +337,12 @@ hr {
     text-align: center;
 }
 
+#price-table {
+    margin: 0 auto;
+    padding-top: 75px;
+    width: 50%;
+}
+
 #member-outro {
     height: 150px;
     width: 100%;
