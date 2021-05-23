@@ -574,3 +574,48 @@ hr {
         font-size: 130%;
     }
 }
+
+/* for small screen sizes 750px and down */
+
+@media screen and (max-width: 750px) {
+    #menu {
+        clear: right;
+        float: right;
+        margin-right: 20px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 75%;
+    }
+
+    #hero-image {
+        background: url(../images/hero-image.jpg) no-repeat -750px top;
+    } 
+    
+    #hero-text {
+        text-align: left;
+        position: absolute;
+        width: 100%;
+        float: left;
+        font-size: 20px;
+    }
+
+    #welcome h1 {
+        font-size: 80%;
+    }
+
+    #top-left-image {
+        width: 90%;
+        height: 350px;
+    }
+
+    #top-right-text {
+        height: 300px;
+        width: 90%;
+        font-size: 16px;
+        padding: 0 5% 0 5%;;
+    }
+
+    .breakdown-headings {
+        margin-top: 75px;
+    }
+}
