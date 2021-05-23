@@ -554,3 +554,23 @@ hr {
 #feedback-background {
     background: url(../images/feedback-background.jpg) no-repeat center;
 }
+
+/* media queries */
+
+/* for larger to medium screen size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    .breakdown-headings p {
+        font-size: 50%;
+    }
+
+    #top-right-text {
+        padding: 120px 5% 0 5%;
+        font-size: 130%;
+    }
+
+    #bottom-left-text {
+        padding: 120px 5% 0 5%;
+        font-size: 130%;
+    }
+}
