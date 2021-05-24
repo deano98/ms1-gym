@@ -555,6 +555,8 @@ hr {
 
 /* for larger to medium screen size from 1200px wide and down */
 
+/* homepage */
+
 @media screen and (max-width: 1200px) {
     .breakdown-headings p {
         font-size: 50%;
@@ -572,6 +574,8 @@ hr {
 }
 
 /* for small screen sizes 750px and down */
+
+/* homepage */
 
 @media screen and (max-width: 750px) {
     #menu {
@@ -631,5 +635,11 @@ hr {
         width: 90%;
         font-size: 16px;
         padding: 0 5% 0 5%;;
+    }
+
+    /* classes page */
+
+    #timetable {
+        font-size: 100%;
     }
 }
