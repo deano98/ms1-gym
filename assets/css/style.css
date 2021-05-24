@@ -162,10 +162,6 @@ hr {
 
 /* outro */
 
-#outro {
-    height: 300px;
-}
-
 #bottom-right-image {
     height: 300px;
     width: 40%;
@@ -594,9 +590,9 @@ hr {
     #hero-text {
         text-align: left;
         position: absolute;
-        width: 100%;
-        float: left;
+        width: 50%;
         font-size: 20px;
+        left: 20px;
     }
 
     #welcome h1 {
@@ -609,7 +605,7 @@ hr {
     }
 
     #top-right-text {
-        height: 300px;
+        height: 150px;
         width: 90%;
         font-size: 16px;
         padding: 0 5% 0 5%;;
@@ -617,5 +613,23 @@ hr {
 
     .breakdown-headings {
         margin-top: 75px;
+        font-size: 20px;
+    }
+
+    .breakdown-headings h1 {
+        font-size: 40px;
+    }
+
+    #bottom-right-image {
+        width: 90%;
+        height: 350px;
+        margin: 0;
+    }
+
+    #bottom-left-text {
+        height: 150px;
+        width: 90%;
+        font-size: 16px;
+        padding: 0 5% 0 5%;;
     }
 }
