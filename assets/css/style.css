@@ -14,8 +14,8 @@ body {
 /* navigation links */
 
 #logo {
-    float: right;
-    margin-right: 20px;
+    float: left;
+    margin-left: 20px;
     line-height: 50px;
     letter-spacing: 1px;
 }
@@ -28,8 +28,8 @@ body {
 }
 
 #menu li {
-    float: left;
-    margin-left: 20px;
+    float: right;
+    margin-right: 20px;
     list-style-type: none;
 }
 
@@ -187,7 +187,7 @@ hr {
 /* footer */
 
 .social-networks {
-    height: 150px;
+    height: 50px;
     width: 100%;
     background-color: #00BAC4;
     text-align: center;
@@ -197,9 +197,9 @@ hr {
 .social-networks i {
     float: left;
     width: 33%;
-    font-size: 75px;
+    font-size: 30px;
     color: white;
-    line-height: 150px;
+    line-height: 50px;
 }
 
 /* classes */
@@ -400,6 +400,7 @@ hr {
     margin: 75px 0 75px 0;
     text-align: center;
     border-right: 6px solid #00BAC4;
+    box-sizing: border-box;
 }
 
 #contact-us {
@@ -409,6 +410,7 @@ hr {
     margin: 75px 0 75px 0;
     text-align: center;
     border-right: 6px solid #00BAC4;
+    box-sizing: border-box;
 }
 
 #feedback {
@@ -587,6 +589,11 @@ hr {
         font-size: 75%;
     }
 
+    /* contact page */
+    #contact-details p {
+        font-size: 75%;
+    }
+
 }
 
 /* for small screen sizes 750px and down */
@@ -595,9 +602,9 @@ hr {
 
 @media screen and (max-width: 750px) {
     #menu {
-        clear: right;
-        float: right;
-        margin-right: 20px;
+        clear: left;
+        float: left;
+        margin-left: 20px;
         height: 50px;
         line-height: 50px;
         font-size: 75%;
@@ -671,7 +678,6 @@ hr {
         height: 100px;
         width: 100%;
         border: none;
-        box-sizing: border-box;
     }
     
     #flexi-member {
@@ -692,7 +698,36 @@ hr {
     
     #membership {
         font-size: 100%;
-    }    
+    }   
+    
+    /* contact page */
+    #opening-times {
+        height: 100px;
+        width: 100%;
+        border: none;
+        margin-top: 0;
+    }
+    
+    #contact-us {
+        height: 100px;
+        width: 100%;
+        border: none;
+        margin-top: 50px;
+    }
+    
+    #feedback {
+        height: 100px;
+        width: 100%;
+        margin-bottom: 75px;
+    }
 
+    #find-us {
+        margin-top: 125px;
+    }
+
+    #contact-info {
+        font-size: 100%;
+    }
+    
 
 }
