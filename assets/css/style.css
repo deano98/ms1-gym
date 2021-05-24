@@ -308,6 +308,7 @@ hr {
     width: 33%;
     float: left;
     border-right: 6px solid #00BAC4;
+    box-sizing: border-box;
     margin-top: 75px;
 }
 
@@ -316,6 +317,7 @@ hr {
     width: 33%;
     float: left;
     border-right: 6px solid #00BAC4;
+    box-sizing: border-box;
     margin-top: 75px;
 }
 
@@ -335,11 +337,20 @@ hr {
 #packages h1 {
     text-align: center;
     margin: 50px 0 50px 0;
+    width: 75%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #packages p {
     line-height: initial;
     text-align: center;
+    width: 75%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 80%;  
 }
 
 #price-details h1 {
@@ -353,7 +364,7 @@ hr {
 
 #price-table {
     margin: 0 auto;
-    width: 50%;
+    width: 75%;
     padding-bottom: 75px;
 }
 
@@ -554,10 +565,9 @@ hr {
 /* media queries */
 
 /* for larger to medium screen size from 1200px wide and down */
-
-/* homepage */
-
 @media screen and (max-width: 1200px) {
+
+    /* homepage */
     .breakdown-headings p {
         font-size: 50%;
     }
@@ -571,6 +581,12 @@ hr {
         padding: 120px 5% 0 5%;
         font-size: 130%;
     }
+
+    /* membership page */
+    #packages p {
+        font-size: 75%;
+    }
+
 }
 
 /* for small screen sizes 750px and down */
@@ -642,4 +658,41 @@ hr {
     #timetable {
         font-size: 100%;
     }
+
+    /* membership page */
+    #full-member {
+        height: 100px;
+        width: 100%;
+        border-right: none;
+        margin: 0;
+    }
+    
+    #lite-member {
+        height: 100px;
+        width: 100%;
+        border: none;
+        box-sizing: border-box;
+    }
+    
+    #flexi-member {
+        height: 100px;
+        width: 100%;
+        margin-bottom: 75px;
+    }
+
+    #price-table {
+        font-size: 60%;
+        width: 90%;
+    }
+
+    #member-outro {
+        font-size: 90%;
+    }
+
+    
+    #membership {
+        font-size: 100%;
+    }    
+
+
 }
