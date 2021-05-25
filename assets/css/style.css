@@ -78,10 +78,10 @@ body {
 #welcome {
     height: 150px;
     width: 100%;
-    font-size: 150%;
+    font-size: 200%;
 }
 
-#welcome h1 {
+#welcome h2 {
     text-align: center;
     line-height: 150px;
     letter-spacing: 2px;
@@ -91,7 +91,7 @@ body {
 }
 
 #intro {
-    height: 450px;
+    height: 600px;
 }
 
 #top-left-image {
@@ -150,14 +150,14 @@ hr {
 }
 
 .breakdown-headings {
-    font-size: 30px;
     text-align: center;
     color: white;
     background-color: #505050;
 }
 
-.breakdown-headings h1 {
-    margin: 20px 0 20px;
+.breakdown-headings i {
+    margin: 10px 0 20px;
+    font-size: 60px;
 }
 
 .breakdown-headings p {
@@ -604,7 +604,7 @@ hr {
 
     /* homepage */
     .breakdown-headings p {
-        font-size: 50%;
+        font-size: 90%;
     }
 
     #top-right-text {
@@ -657,7 +657,7 @@ hr {
         left: 20px;
     }
 
-    #welcome h1 {
+    #welcome h2 {
         font-size: 80%;
     }
 
@@ -676,10 +676,10 @@ hr {
 
     .breakdown-headings {
         margin-top: 75px;
-        font-size: 20px;
+        font-size: 80%;
     }
 
-    .breakdown-headings h1 {
+    .breakdown-headings i {
         font-size: 40px;
     }
 
