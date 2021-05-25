@@ -58,16 +58,19 @@ body {
 }
 
 #hero-text {
+    /* font */
     font-weight: 900;
     font-size: 30px;
+    font-family: Lato, sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+    /* position */
     position: relative;
     top: 18%;
     right: 15%;
+    /* colour */
     color: white;
-    font-family: Lato, sans-serif;
 }
 
 /* gym intro */
@@ -92,23 +95,27 @@ body {
 }
 
 #top-left-image {
+    /* size and position */
     height: 450px;
     width: 40%;
     padding: 0 5% 0 5%;
+    float: left;
+    /* image */
     background: url(../images/gym-1.jpg) no-repeat center;
     overflow: hidden;
     background-clip: content-box;
-    float: left;
 }
 
 #top-right-text {
+    /* size and position */
     height: 290px;
     width: 40%;
     padding: 160px 5% 0 5%;
-    text-align: center;
-    font-family: Lato, sans-serif;
     background-clip: content-box;
     float: right;
+    /* font */
+    text-align: center;
+    font-family: Lato, sans-serif;
     font-size: 150%;
 }
 
@@ -164,25 +171,31 @@ hr {
 /* outro */
 
 #bottom-right-image {
+    /* size and position */
     height: 300px;
     width: 40%;
     margin: 75px 0 75px 0;
     padding: 0 5% 0 5%;
+    float: right;
+    /* image */
     background: url(../images/gym-2.jpg) no-repeat center;
     overflow: hidden;
     background-clip: content-box;
-    float: right;
 }
 
 #bottom-left-text {
+    /* size and position */
     height: 290px;
     width: 40%;
     padding: 160px 5% 0 5%;
+    float: left;
+    background-clip: content-box;
+    /* font */
+    font-size: 150%;
     text-align: center;
     font-family: Lato, sans-serif;
-    background-clip: content-box;
-    float: left;
-    font-size: 150%;
+
+
 }
 
 /* footer */
@@ -206,16 +219,19 @@ hr {
 /* classes */
 
 #timetable {
+    /* size and position */
     height: 150px;
     width: 100%;
+    float: left;
+    /* font */
     text-align: center;
     line-height: 150px;
     font-family: Lato, sans-serif;
-    color: white;
     font-size: 150%;
     letter-spacing: 2px;
+    /* color */
     background-color: #505050;
-    float: left;
+    color: white;
 }
 
 .classes {
@@ -292,16 +308,19 @@ hr {
 /* membership page */
 
 #membership {
+    /* size and position */
     height: 150px;
     width: 100%;
+    float: left;
     text-align: center;
+    /* font */ 
     line-height: 150px;
     font-family: Lato, sans-serif;
-    color: white;
     font-size: 200%;
     letter-spacing: 2px;
+    /* colour */
     background-color: #505050;
-    float: left;
+    color: white;
 }
 
 #full-member {
@@ -383,16 +402,19 @@ hr {
 /* contact page */
 
 #contact-info {
+    /* size and position */
     height: 150px;
     width: 100%;
     text-align: center;
+    float: left;
+    /* font */
     line-height: 150px;
     font-family: Lato, sans-serif;
-    color: white;
     font-size: 200%;
     letter-spacing: 2px;
+    /* color */
     background-color: #505050;
-    float: left;
+    color: white;
 }
 
 #opening-times {
@@ -440,14 +462,17 @@ hr {
 }
 
 #feedback-button {
-    font-family: Raleway, sans-serif;
-    background-color: #00BAC4;
-    color: #505050;
+    /* size and position */
     height: 40px;
     width: 200px;
+    border-radius: 5px;
+    /* font */
+    font-family: Raleway, sans-serif;
     font-size: 100%;
     font-weight: bold;
-    border-radius: 5px;
+    /* color */
+    background-color: #00BAC4;
+    color: #505050;
 }
 
 #feedback-button:hover {
@@ -458,15 +483,17 @@ hr {
 /* map */
 
 #find-us {
+    /* size and position */
     height: 75px;
     width: 100%;
     text-align: center;
+    float: left;
+    /* font */
     line-height: 75px;
-    color: white;
     font-size: 150%;
+    /* colour */
     background-color: #00BAC4;
     color: #505050;
-    float: left;
 }
 
 .mapouter {
@@ -548,13 +575,16 @@ hr {
 }
 
 #submit-feedback {
+    /* size and position */
     width: 454px;
     height: 32px;
-    background-color: #00BAC4;
     border-radius: 10px;
     margin: 5px 5px 75px 5px;
+    /* font */
     font-family: Lato, sans-serif;
     font-weight: bold;
+    /* colour */
+    background-color: #00BAC4;
     color: #505050;
 }
 
