@@ -22,8 +22,8 @@ The website will be easy to navigate for all users. The gym itself has a modern 
 Responsive design is employed to provide a smooth experience on any device.
 
 ### User Stories
-1. As a potential new member, I want to see the equipment available at the gym.
-2. As a potential new member, I want clear visibility of what kind of memberships are available with respective pricing.
+1. As a user, I want to find some information about the gym.
+2. As a user, I want clear visibility of what kind of memberships are available with respective pricing.
 3. As a user, I want to see the range of classes available, when they take place and how I can sign up.
 4. As a user, I want to be able to find the location of the gym and check the opening times.
 5. As a user, I would like information on how I can contact somebody at the gym.
@@ -62,23 +62,42 @@ Responsive design is employed to provide a smooth experience on any device.
 
 # Features
 
-All pages include a navigation bar at the top, with links to each page on the site. A footer will also feature on each page, displaying social media icons with links to the corresponding site.
+* All pages include a navigation bar at the top, with links to each page on the site on the right and a logo on the left, which links back to the homepage. 
+* A footer will also feature on each page, displaying social media icons with links to the corresponding site.
 
 ## Homepage
 
-The homepage uses an eye catching hero image to capture the users intrigue. Below that, information on the features of the gym / membership packages are concisely displayed, complimented with smaller images showing off the equipment. The goal of the homepage is to impact the user and get them interested in joining. 
+* The homepage uses an eye catching hero image to capture the users intrigue, the image will remain the same height on all devices but the width will shrink with the resolution. On top of the image there will be an inspirational quote, to motivate the user to join the gym.
+* Below the hero image the user will find some information on the core values of the gym, as well as some brief details on the membership packages available, this information is complimented with 2 images of the gym itself, showing off some of the facility and equipment.
+*  In the centre of the page are 3 short paragraphs detailing impactful details on what the gym offers, these are displayed horizontally across the screen with large icons to give a quick idea on what the information is.
 
 ## Classes
 
-The classes page provides the user with all the information on the classes scheduled for that week. There are 3 sessions per day, each displayed with a suitable image - the details will be on the image in a contrasting coloured font. The desktop and tablet versions will have the 3 images presented horizontally across the screen for each day. On the mobile version, the pictures will be flattened and displayed vertically down the screen.
+* The classes page provides the user with all the information on the classes scheduled for that week. 
+* Each day is split up with large headers 
+* Below each header the classes are displayed, there are 3 each day and they are displayed horizontally across the screen
+* Each class has a transparent picture, showing off what kind of class it is. The picture then has bold, dark text inside it giving the details on what the class is and what time it takes place.
 
 ## Membership
 
-The membership page features all the information on the membership packages available. If the user is interested in joining, we want all the details they require to be concise and easy to find. There are 3 packages which are presented horizontally accross the screen, vertically on tablet or mobile.
+* The membership page features all the information on the membership packages available. There are 3 packages, they are displayed horizontally across the screen, split up with vertical lines
+* Each membership has a heading, with all of the details in a short paragraph underneath.
+* Below that, the price of each package will be displayed in table format, showing how much they cost for different age groups.
+* The page concludes with a short paragraph explaining how you can become a member with a link to the contact page.
 
 ## Contact
 
-The contact page has a similar layout to the membership page, providing users with the folowing information: Opening times, contact details and a link to a feedback form. The page also includes a map showing the location of the facility. The info is presented horizontally on desktop, switching to vertically for tablet and mobile. 
+* The contact page has a similar layout to the membership page, providing users with the folowing information: Opening times, contact details and a link to a feedback form. 
+* As with the membership page, the detailed will be layed out horizontally, split with vertical lines. The information will be displayed with a header, subsequent information will be in a paragraph.
+* There will be a button on the feedback section that links to the feedback page.
+* Below that displays an interactive google map with the location of the gym.
+
+## Feedback
+
+* The feedback page has no link on the navigation bar, the only way to the page is by clicking the submit feedback button on the contact page.
+* The page features a large static background image of the gym.
+* The feedback form will include 3 fields: Name, Email Address and a large text box for the actual feedback. All of these fields will be required to submit the form.
+* Below this will be a submit button which will submit the feedback.
 
 ## Future Features
 
@@ -95,6 +114,42 @@ The contact page has a similar layout to the membership page, providing users wi
 * HTML
 * CSS
 * Google Fonts
+* Font Awesome
+* Google Maps
+
+# Testing
+
+## Code Validation
+
+[W3C Markup Validation](https://validator.w3.org/) 
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+*Note - 5 validation errors remain on the contact page - these all relate to the google maps link, I kept them in as this was pasted directly from the google maps generator site*
+
+## Test Cases
+
+### Testing User Stories 
+
+1. As a user, I want to find some information about the gym.
+  * The homepage contains a brief inroduction to the gym, so information is quickly available as soon as the user visits the site.
+  * Further information can be found on the other pages, which can easily be found using the navigation bar.
+2. As a user, I want clear visibility of what kind of memberships are available with respective pricing.
+  * All the required information regarding membership pricing, and what each membership includes can be found on the membership page.
+  * The membership page can easily be found using the navigation bar.
+3. As a user, I want to see the range of classes available, when they take place and how I can sign up.
+  * The full weekly timetable of classes can be found on the classes page, showing the time and day of each one for that week.
+  * The classes page can be found easily using the navigation bar.
+4. As a user, I want to be able to find the location of the gym and check the opening times.
+  * The opening times of the gym can be found on the contact page.
+  * The location of the gym can also be found using the inbeded google map displaying where the gym is, which is also on the contact page.
+  * The contact page can easily be found using the navigation bar, there is also an inbeded link on the membership page.
+5. As a user, I would like information on how I can contact somebody at the gym.
+  * All of the contact information can be found on the contact page, including a telephone number, email, link to a feedback form as well as a location and opening times.
+  * The contact page can be found using the navigation bar.
+
+## Bug Fixes
+
+* Fixed a bug on which involved the divs on the membership page detailing the packages, and the divs on the contact page showing the contact infomation. On smaller resolutions, the rightmost div would fall underneath the other 2, causing impact to the layout of the page. This was due to the border used for the vertical lines adding to the size of the element. Adding the property box-sizing with a value of border-box made it so that the border is now inside the element instead of outside. The 33% width of the divs is now unaffected by the border.
 
 # External Resources
 
