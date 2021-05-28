@@ -151,11 +151,37 @@ Responsive design is employed to provide a smooth experience on any device.
 
 * Fixed a bug on which involved the divs on the membership page detailing the packages, and the divs on the contact page showing the contact infomation. On smaller resolutions, the rightmost div would fall underneath the other 2, causing impact to the layout of the page. This was due to the border used for the vertical lines adding to the size of the element. Adding the property box-sizing with a value of border-box made it so that the border is now inside the element instead of outside. The 33% width of the divs is now unaffected by the border.
 
+# Deployment
+
+* GitHub Pages
+  * Navigate to the site repository on GitHub
+  * Click settings
+  * Click on to the Pages tab
+  * In the "Source" section, click on the button that says "None"
+  * Select the Master branch
+  * Save. The site is now hosted at https://deano98.github.io/ms1-gym/
+
+* Gitpod
+  * Navigate to the site repository on GitHub
+  * Click the green gitpod button
+  * Once loaded, click on the burger icon then select Terminal > New Terminal
+  * In the terminal, type the following: python3 -m http.server
+  * Click on open in browser to view the site locally.
+
 # External Resources
 
 [Unsplash](https://unsplash.com/) - Resource for stock images
 [Google Map Generator](https://google-map-generator.com/) - Used to get the code to embed the google map
 [w3schools](https://www.w3schools.com/) - Help with code
+[TinyJPG](https://tinyjpg.com/) - Used to compress image files
+[Favicon](https://www.favicon.cc/) - Used to creat favicon
+[ColorSpace](https://mycolor.space/) - Used to pick the colour pallette
+[Google Fonts](https://fonts.google.com/) - Used to find the sites fonts
+
+# Credits
+
+* Thanks to my mentor Rohit Sharma, for the support with my project
+* Thanks to everyone on Slack for already asking the questions I needed answers to
 
 
 
