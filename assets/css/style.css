@@ -802,10 +802,7 @@ hr {
     #feedback-header p {
         font-size: 55%;
     }
-}
 
-/* for resolutions up to 411px */
-@media screen and (max-width: 411px) {
     #welcome h2 {
         line-height: 75px;
     }
@@ -836,5 +833,7 @@ hr {
         margin: 30px 0 50px 0;
     }
 }
+
+
 
 
