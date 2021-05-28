@@ -90,7 +90,7 @@ Responsive design is employed to provide a smooth experience on any device.
 * The contact page has a similar layout to the membership page, providing users with the folowing information: Opening times, contact details and a link to a feedback form. 
 * As with the membership page, the detailed will be layed out horizontally, split with vertical lines. The information will be displayed with a header, subsequent information will be in a paragraph.
 * There will be a button on the feedback section that links to the feedback page.
-* Below that displays an interactive google map with the location of the gym.
+* Below that displays an interactive google map with the location of the gym. *Note - the map is for another gym, as Milestone Fitness is fictional*
 
 ## Feedback
 
@@ -122,6 +122,7 @@ Responsive design is employed to provide a smooth experience on any device.
 ## Code Validation
 
 [W3C Markup Validation](https://validator.w3.org/) 
+
 [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 
 *Note - 5 validation errors remain on the contact page - these all relate to the google maps link, I kept them in as this was pasted directly from the google maps generator site*
@@ -146,6 +147,63 @@ Responsive design is employed to provide a smooth experience on any device.
 5. As a user, I would like information on how I can contact somebody at the gym.
   * All of the contact information can be found on the contact page, including a telephone number, email, link to a feedback form as well as a location and opening times.
   * The contact page can be found using the navigation bar.
+
+## Site Screenshots
+
+### Homepage
+
+* [Desktop](docs/screenshots/homepage-desktop.jpg)
+* [Tablet](docs/screenshots/homepage-tablet.jpg)
+* [Mobile](docs/screenshots/homepage-mobile.jpg)
+
+### Classes Page
+
+* [Desktop](docs/screenshots/classes-desktop.jpg)
+* [Tablet](docs/screenshots/classes-tablet.jpg)
+* [Mobile](docs/screenshots/classes-mobile.jpg)
+
+### Membership Page
+
+* [Desktop](docs/screenshots/membership-desktop.jpg)
+* [Tablet](docs/screenshots/membership-tablet.jpg)
+* [Mobile](docs/screenshots/membership-mobile.jpg)
+
+### Contact Page
+
+* [Desktop](docs/screenshots/contact-desktop.jpg)
+* [Tablet](docs/screenshots/contact-tablet.jpg)
+* [Mobile](docs/screenshots/contact-mobile.jpg)
+
+### Feedback Page
+
+* [Desktop](docs/screenshots/feedback-desktop.jpg)
+* [Tablet](docs/screenshots/feedback-tablet.jpg)
+* [Mobile](docs/screenshots/feedback-mobile.jpg)
+
+## Supported Devices
+
+* The site has been tested on and supports the following devices:
+  * Moto G4
+  * Galaxy S5
+  * Pixel 2
+  * Pixel 2 XL
+  * iPhone 5/SE
+  * iPhone 6/7/8
+  * iPhone 6/7/8 Plus
+  * iPhone X
+  * iPhone 11
+  * iPad
+  * iPad Pro
+  * Surface Duo
+
+## Supported Browsers
+
+* The site has been tested on and supports the following browsers:
+  * Google Chrome
+  * Mozilla Firefox
+  * Microsoft Edge
+  * Safari
+
 
 ## Bug Fixes
 
@@ -180,8 +238,8 @@ Responsive design is employed to provide a smooth experience on any device.
 
 # Credits
 
-* Thanks to my mentor Rohit Sharma, for the support with my project
-* Thanks to everyone on Slack for already asking the questions I needed answers to
+* Thanks to my mentor Rohit Sharma, for the support with my project.
+* Thanks to everyone on Slack for just being a great source of help and information.
 
 
 
