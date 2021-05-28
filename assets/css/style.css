@@ -16,6 +16,7 @@ body {
 #logo {
     float: left;
     padding-left: 20px;
+    box-sizing: border-box;
     line-height: 50px;
     letter-spacing: 1px;
     background-color: white;
@@ -533,9 +534,12 @@ hr {
 }
 
 #feedback-header p {
-    margin-top: 25px;
     font-size: 75%;
     font-weight: bolder;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    background-color: #00BAC4;
 }
 
 #form {
@@ -548,7 +552,7 @@ hr {
     height: 30px;
     border: 2px solid #505050;
     border-radius: 10px;
-    margin: 75px 5px 5px 5px;
+    margin: 100px 5px 5px 5px;
     padding-left: 10px;
 }
 
@@ -580,7 +584,7 @@ hr {
     width: 454px;
     height: 32px;
     border-radius: 10px;
-    margin: 5px 5px 75px 5px;
+    margin: 5px 5px 50px 5px;
     /* font */
     font-family: Lato, sans-serif;
     font-weight: bold;
@@ -637,7 +641,6 @@ hr {
 @media screen and (max-width: 750px) {
     #menu {
         float: left;
-        padding-right: 20px;
         font-size: 75%;
         width: 100%;
     }
@@ -727,15 +730,19 @@ hr {
     #price-table {
         font-size: 60%;
         width: 90%;
+        padding-bottom: 50px;
     }
 
     #member-outro {
         font-size: 90%;
     }
 
-
     #membership {
         font-size: 100%;
+    }
+
+    #price-details h2 {
+        margin-bottom: 50px;
     }
 
     /* contact page */
@@ -789,3 +796,45 @@ hr {
     }
 
 }
+
+/* for resolutions up to 450px */
+@media screen and (max-width: 450px) {
+    #feedback-header p {
+        font-size: 55%;
+    }
+}
+
+/* for resolutions up to 411px */
+@media screen and (max-width: 411px) {
+    #welcome h2 {
+        line-height: 75px;
+    }
+
+    #menu li {
+        margin-right: 10px;
+    }
+
+    #logo {
+        padding-left: 10px;
+    }
+
+    #bottom-left-text {
+        font-size: 90%;
+    }
+
+    .breakdown-headings p {
+        font-size: 10px;
+    }
+
+    /* membership page */
+    #packages p {
+        font-size: 60%;
+    }
+
+    #packages h2 {
+        font-size: 75%;
+        margin: 30px 0 50px 0;
+    }
+}
+
+
